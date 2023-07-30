@@ -1,0 +1,43 @@
+static void Foo(int[] arrays)
+        {
+            for (int i = 0; i < arrays.Length; i++)
+            {
+                Console.Write(" " + arrays[i]);
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            int[] arr = new int[10];
+            int[] copy = new int[11];
+            int user_number, counter = 0;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = i + 1;
+            }
+
+            Foo(arr);
+           
+            Console.WriteLine();
+            Console.WriteLine("enter number to dublicate: ");
+
+            user_number = int.Parse(Console.ReadLine());
+           
+            for (int i = 0; i < copy.Length; i++)
+            {
+                if (i == user_number)
+                {
+                    copy[i] = user_number;
+
+                }
+                else
+                { copy[i] = arr[counter]; 
+                    counter++;
+                }
+            }
+
+            Foo(copy);
+
+            Console.ReadLine();
+        }
