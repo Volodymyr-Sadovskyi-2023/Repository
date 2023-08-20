@@ -2,21 +2,22 @@ using ChallengeMe.CONFIDENT;
 
 namespace ChallengeMe.Tests
 {
-    public class UserEnter : UserService
+    public class UserRegistrationService : IUserRegistrationService
     {
-        public void EnterTheRegister(string username, string password)
-        {
-            throw new NotImplementedException();
-        }
+        private readonly List<User> users = new List<User>();
 
         public void RegisterUser(string username, string password)
         {
-            UsersRegister.Users.Append(new User());
+            users.Add(new User(username, password));
         }
 
         public void UnregisterUser(string username)
         {
-            throw new NotImplementedException();
+            var userToRemove = users.FirstOrDefault(u => u.Username == username);
+            if (userToRemove != null)
+            {
+                users.Remove(userToRemove);
+            }
         }
     }
 }
