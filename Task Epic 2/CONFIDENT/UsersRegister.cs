@@ -5,12 +5,12 @@
         public static void UsersRegistry()
         {
             var user = new User();
-            user.SetValues("1", "2");
-            Users[0] = user;
+            var user = new User("1", "2");
+            Users.Add(user);
           
             return;
         }
-        public static User[] Users = new User[1];
+        public static List<User> Users = new List<User>();
     }
 
     internal class User
