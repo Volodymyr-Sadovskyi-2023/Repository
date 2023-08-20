@@ -1,10 +1,13 @@
-using ChallengeMe.CONFIDENT;
-
 namespace ChallengeMe.Tests
 {
-    public class UserService : IUserService
+    public class UserEnterService : IUserEnterService
     {
-        private readonly List<User> users = new List<User>();
+        private readonly List<User> users;
+
+        public UserEnterService(List<User> users)
+        {
+            this.users = users;
+        }
 
         public void EnterTheRegister(string username, string password)
         {
@@ -18,16 +21,6 @@ namespace ChallengeMe.Tests
             {
                 Console.WriteLine("You have not registered");
             }
-        }
-
-        public void RegisterUser(string username, string password)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UnregisterUser(string username)
-        {
-            UsersRegister.Users[0] = null;
         }
     }
 }
