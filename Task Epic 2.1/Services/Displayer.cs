@@ -7,28 +7,17 @@ namespace MythAndLegends.Services;
 public class Display : IDisplay
 {
     private readonly IStoryService _storyService;
+    private readonly StoryDisplayer _storyDisplayer;
 
-    public Display(IStoryService storyService)
+    public Display(IStoryService storyService, StoryDisplayer storyDisplayer)
     {
         _storyService = storyService;
+        _storyDisplayer = storyDisplayer;
     }
 
     public void DisplayByCode(string code)
     {
         var story = _storyService.GetStoryByCode(code);
-
-        if (story is not null)
-        {
-            story.Tell();
-        }
-        else
-        {
-            Console.WriteLine($"No story with code {code}");
-        }
-    }
-
-    public void AddNewStory(Story story)
-    {
-        _storyService.AddStory(story);
+        _storyDisplayer.DisplayStory(story);
     }
 }
