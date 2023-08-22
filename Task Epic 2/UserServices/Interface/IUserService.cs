@@ -1,13 +1,9 @@
-namespace ChallengeMe.Tests
+﻿namespace ChallengeMe.Tests
 {
-    public interface IUserRegistrationService
+    public interface IUserService
     {
         void RegisterUser(string username, string password);
-        void UnregisterUser(string username);
-    }
-
-    public interface IUserEnterService
-    {
         void EnterTheRegister(string username, string password);
+        void NotRegisterUser(string username);
     }
 }
