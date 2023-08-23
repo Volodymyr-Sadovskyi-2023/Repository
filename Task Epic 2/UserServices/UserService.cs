@@ -11,7 +11,7 @@ namespace ChallengeMe.Tests
             UsersRegister.Users.Append(new User(username, password));
         }
 
-        public void EnterTheRegister(string username, string password)
+        public void CheckRegisterUser(string username, string password)
         {
             var user = users.FirstOrDefault(u => u.Username == username && u.Password == password);
 
