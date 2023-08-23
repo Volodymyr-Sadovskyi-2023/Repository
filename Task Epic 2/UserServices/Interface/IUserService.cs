@@ -4,6 +4,6 @@
     {
         void RegisterUser(string username, string password);
         void CheckRegisterUser(string username, string password);
-        void NotRegisterUser(string username);
+        void FirstRegisterUser(string username);
     }
 }
