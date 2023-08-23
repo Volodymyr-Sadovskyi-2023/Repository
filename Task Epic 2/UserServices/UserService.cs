@@ -25,7 +25,7 @@ namespace ChallengeMe.Tests
             }
         }
 
-        public void NotRegisterUser(string username)
+        public void FirstRegisterUser(string username)
         {
             UsersRegister.Users[0] = null;
         }
