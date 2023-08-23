@@ -6,7 +6,7 @@ namespace ChallengeMe.Tests
     {
         public void EnterTheRegister(string username, string password)
         {
-            throw new NotImplementedException();
+            UsersRegister.Users.Append(new User(username, password));
         }
 
         public void RegisterUser(string username, string password)
