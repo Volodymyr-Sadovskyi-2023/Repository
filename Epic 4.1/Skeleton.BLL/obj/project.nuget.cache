@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KVz1ipcBZ9d9pTe0ZlJdFqJ3seoW1yfO4ID8Ii6vwxFLNXtrPu51kwn0bEMFqVU25CYKyJ/xS6EmmdW24bjEsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vsalg\\Desktop\\4 Task\\Skeleton.BLL\\Skeleton.BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vsalg\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\vsalg\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vsalg\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
