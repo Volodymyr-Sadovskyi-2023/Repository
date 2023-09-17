@@ -1,0 +1,27 @@
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\appsettings.json
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\MVC auth app.exe
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\MVC auth app.deps.json
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\MVC auth app.runtimeconfig.json
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\MVC auth app.dll
+C:\Users\vsalg\Desktop\MVC\MVC app\bin\Debug\net6.0\MVC auth app.pdb
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.AssemblyInfoInputs.cache
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.AssemblyInfo.cs
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.csproj.CoreCompileInputs.cache
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.RazorAssemblyInfo.cache
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.RazorAssemblyInfo.cs
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets\msbuild.MVC auth app.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets\msbuild.build.MVC auth app.props
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MVC auth app.props
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MVC auth app.props
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\scopedcss\bundle\MVC auth app.styles.css
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.dll
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\refint\MVC auth app.dll
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.pdb
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\MVC auth app.genruntimeconfig.cache
+C:\Users\vsalg\Desktop\MVC\MVC app\obj\Debug\net6.0\ref\MVC auth app.dll

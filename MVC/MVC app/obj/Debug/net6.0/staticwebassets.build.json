@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MZtcyBfLOShJp6DaWLOBRELGZ5KdKCZDwYjvDClZtTU=",
+  "Source": "MVC auth app",
+  "BasePath": "_content/MVC auth app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

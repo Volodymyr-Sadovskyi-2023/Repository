@@ -1,0 +1,14 @@
+﻿@model User
+
+<h2>Home Page</h2>
+
+<div>
+    @if (Model.Admin == true)
+    {
+        <p>Glad to see you again, Admin</p>
+    }
+    else
+    {
+        <p>You are not an Admin</p>
+    }
+</div>
